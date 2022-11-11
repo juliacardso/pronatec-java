@@ -1,0 +1,26 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+      int x = 10;
+      int y = 20;
+
+      System.out.println("soma :" +(x+y));
+
+      System.out.println("subtrair :" +(x-y));
+
+      System.out.println("multiplicar :" +(x*y));
+
+      
+      System.out.println("resto da divisão:" +(y%x));
+      if (y%x == 0)
+      System.out.println("número par !");
+      else
+       System.out.println("número ímpar !");
+      
+      
+
+    }
+}
