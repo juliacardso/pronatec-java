@@ -1,0 +1,30 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+        System.out.println("Hello, world!");
+       int idade=35;
+        float peso=90.7f;
+        double altura=1.90;
+        char letra='c';
+        String nameCompleto="joão das Neves Francisco";
+        System.out.println(nameCompleto + " tem "+idade +" anos.");
+        //Conversão para maiúscula : toUpperCase()
+        System.out.println(nameCompleto.toUpperCase());
+
+        //Conversão para minúscula : toLowerCase()
+         System.out.println("Conversão para minúscula : "+nameCompleto.toLowerCase());
+
+         //Contagem de caracteres
+         System.out.println("Contagem de caracteres : "+nameCompleto.length());
+
+         //Comprar caracteres ou strings dentro de uma strings - equals('char').
+         System.out.println(nameCompleto.equals("João das Neves Francisco"));
+
+
+
+    }
+
+}
