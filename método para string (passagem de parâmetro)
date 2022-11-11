@@ -1,0 +1,21 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+       String nameCompleto= "José das Neves Francisco José";
+
+         //replace - subtitiu caracteres dentro de uma string - equals('char').
+         System.out.println(nameCompleto.replace('a' ,'*'));
+         System.out.println(nameCompleto.replace("José","João"));
+
+         //replaceFirts - susbtitiu a primeira ocorrência de um char ou sting
+         System.out.println (nameCompleto.replaceFirst("a","*"));
+         System.out.println (nameCompleto.replaceFirst("josé","João"));
+         
+         //replaceAll- sustitui todas as ocorrências de string 
+         System.out.println (nameCompleto.replaceFirst("josé","João"));
+         
+    }
+}
